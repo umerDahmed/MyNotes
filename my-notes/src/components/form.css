@@ -1,0 +1,17 @@
+.a{
+    margin-top: 4rem;
+    margin-left: 19rem;
+    background-color: rgb(31, 28, 28);
+    color: white;
+    width: 30rem;
+    display: flexbox;
+    padding: 0.2rem;
+
+}
+.b{
+    display: block;
+    text-align: center;
+    color: rgb(228, 228, 228);
+    font-weight: bold;
+    font-family: 'Cedarville Cursive', cursive;
+}
