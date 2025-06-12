@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mynotes
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: mynotes
+  template:
+    metadata:
+      labels:
+        app: mynotes
+    spec:
+      containers:
+        - name: mynotes
+          image: umerahmed123/mynotes:latest
+          ports:
+            - containerPort: 3000
+
